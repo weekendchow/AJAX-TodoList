@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AJAX-TodoList</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+  <div class='container'>
+    <h1>TodoList</h1>
+    <button type="button" class='getAll'>GetAll</button>
+    <form id='form'>
+      <div class='input-group'>
+        <input id='input' type="text" name='search' placeholder="todo...">
+        <input id='btn' type="submit" name='submit' class='submitBtn'>
+      </div>
+    </form>
+    <div class='row'>
+      <ul id='list'></ul>
+    </div>
+  </div>
+  <script src='app.js'></script>
+</body>
+</html>
